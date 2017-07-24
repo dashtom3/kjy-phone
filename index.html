@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>water-service</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+      (function(){
+        var html = document.documentElement;
+        var hWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = hWidth/15 + 'px';
+      })()
+    </script>
+    <style>
+      a,input,button{
+        -webkit-tab-highlight-color: rgba(0, 0, 0, 0);
+      }
+      input,button{
+        -webkit-apperance: none;
+        border-radius: 0;
+      }
+      body,ul{
+        margin: 0;
+        padding: 0;
+        -webkit-user-select: none;
+      }
+      body *{
+        -webkit-user-select: none;
+        font-family: Helvetica;
+      }
+      body{
+        -webkit-text-size-adjust: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
